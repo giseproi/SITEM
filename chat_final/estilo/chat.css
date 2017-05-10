@@ -1,0 +1,6 @@
+.chat {
+	background-attachment: fixed;
+	background-image: url(chat.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}

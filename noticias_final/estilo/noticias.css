@@ -1,0 +1,6 @@
+.noticias {
+	background-attachment: fixed;
+	background-image: url(noticias.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}

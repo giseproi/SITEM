@@ -1,0 +1,8 @@
+<?
+	$this->acceso_db=new db_admin;
+	$this->enlace=$this->acceso_db->conectar_db();
+	$operador = $_GET['op'];
+	$this->cadena_select="SELECT * FROM usuario";
+	$this->acceso_db->registro_db($this->cadena_select,0);//ejecutar cadena
+	$conteo=mysql_num_fields ($this->cadena select);
+ ?>

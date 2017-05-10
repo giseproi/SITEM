@@ -1,0 +1,8 @@
+<?
+
+$version=phpversion();
+
+echo $version;
+
+
+?>
